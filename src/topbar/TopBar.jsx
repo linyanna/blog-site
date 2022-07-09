@@ -20,7 +20,8 @@ export default function TopBar() {
       </div>
       <div className="topRight">
         <img className="topImg"
-          src="https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1019830425919938560%2FkmLYx3lW.jpg" alt=""/>
+          src="https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1019830425919938560%2FkmLYx3lW.jpg"
+          alt=""/>
         <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
