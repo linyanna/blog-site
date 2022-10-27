@@ -9,7 +9,7 @@ export default function Header() {
       </div>
       <img 
         className="headerImg" 
-        src="https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1019830425919938560%2FkmLYx3lW.jpg"
+        src="https://i.pinimg.com/originals/86/38/8b/86388bec3452c24ea4d4363007557b93.jpg"
         alt=""/>
     </div>
   )

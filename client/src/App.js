@@ -14,7 +14,7 @@ import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings"; 
 
 function App() {
-  const user = true;
+  const user = false;
   return (
     <Router>
       <TopBar/>
