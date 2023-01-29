@@ -19,12 +19,12 @@ function App() {
     <Router>
       <TopBar/>
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/register" element={user ? <Home /> : <Register />}/>
-        <Route path="/login" element={user ? <Home /> : <Login />}/>
-        <Route path="/settings" element={user ? <Settings /> : <Register />}/>
-        <Route path="/write" element={user ? <Write /> : <Register />}/>
-        <Route path="/post/:postId" element={<Single />}/>
+        <Route path="/blog-site" element={<Home />}/>
+        <Route path="/blog-site/register" element={user ? <Home /> : <Register />}/>
+        <Route path="/blog-site/login" element={user ? <Home /> : <Login />}/>
+        <Route path="/blog-site/settings" element={user ? <Settings /> : <Register />}/>
+        <Route path="/blog-site/write" element={user ? <Write /> : <Register />}/>
+        <Route path="/blog-site/post/:postId" element={<Single />}/>
       </Routes>
     </Router>
   );
