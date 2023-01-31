@@ -4,7 +4,7 @@ export default function Post() {
   return (
     <div className="post">
       <img 
-        classNmae="postImg"
+        className="postImg"
         src="https://i.pinimg.com/originals/3b/1c/24/3b1c24c904e21b92975a7b67d356e94c.jpg" 
         alt=""/>
       <div className="postInfo">
